@@ -1,0 +1,45 @@
+﻿生成启动时间为 2016/8/25 15:19:07。
+     1>项目“E:\code\SpeedLinkup\SpeedLinkup\SpeedLinkup.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>e:\code\speedlinkup\speedlinkup\common.h(14): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : 参见“sprintf”的声明
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(94): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(120): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(162): warning C4244: “=”: 从“double”转换到“unsigned char”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(163): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(185): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(190): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(195): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(200): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(322): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(343): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(354): warning C4244: “初始化”: 从“float”转换到“int”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(431): warning C4258: “x”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\code\speedlinkup\speedlinkup\getgamewindows.h(428) : 忽略“x”的定义
+                 e:\code\speedlinkup\speedlinkup\getgamewindows.h(424) : 使用“x”的定义
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(435): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(450): warning C4258: “x”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\code\speedlinkup\speedlinkup\getgamewindows.h(443) : 忽略“x”的定义
+                 e:\code\speedlinkup\speedlinkup\getgamewindows.h(424) : 使用“x”的定义
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(454): warning C4258: “x”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\code\speedlinkup\speedlinkup\getgamewindows.h(443) : 忽略“x”的定义
+                 e:\code\speedlinkup\speedlinkup\getgamewindows.h(424) : 使用“x”的定义
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(457): warning C4258: “x”: 忽略 For 循环中的定义；使用封闭范围中的定义
+                 e:\code\speedlinkup\speedlinkup\getgamewindows.h(443) : 忽略“x”的定义
+                 e:\code\speedlinkup\speedlinkup\getgamewindows.h(424) : 使用“x”的定义
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(583): warning C4305: “参数”: 从“double”到“const bool”截断
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(618): warning C4244: “参数”: 从“double”转换到“const unsigned int”，可能丢失数据
+     1>e:\code\speedlinkup\speedlinkup\getgamewindows.h(564): warning C4101: “e”: 未引用的局部变量
+     1>e:\code\speedlinkup\speedlinkup\block.h(1): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\SpeedLinkup\Debug\SpeedLinkup.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\code\SpeedLinkup\Debug\SpeedLinkup.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\SpeedLinkup\Debug\SpeedLinkup.lib" /MACHINE:X86 Debug\Block.obj
+         Debug\GameWindow.obj
+         Debug\main.obj
+         SpeedLinkup.vcxproj -> E:\code\SpeedLinkup\Debug\SpeedLinkup.exe
+     1>已完成生成项目“E:\code\SpeedLinkup\SpeedLinkup\SpeedLinkup.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:12.45
